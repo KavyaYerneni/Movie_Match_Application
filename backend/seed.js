@@ -22,8 +22,8 @@ if (movies.length < 100) {
 }
 
 const insert = db.prepare(`
-  INSERT OR REPLACE INTO items (id, label, description, image_url)
-  VALUES (@id, @label, @description, @image_url)
+  INSERT OR REPLACE INTO items (id, label, description, image_url, year, genre)
+  VALUES (@id, @label, @description, @image_url, @year, @genre)
 `);
 
 const seed = db.transaction((rows) => {

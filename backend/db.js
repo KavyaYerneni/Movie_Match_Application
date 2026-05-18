@@ -12,7 +12,9 @@ db.exec(`
     id TEXT PRIMARY KEY,
     label TEXT NOT NULL,
     description TEXT NOT NULL,
-    image_url TEXT NOT NULL
+    image_url TEXT NOT NULL,
+    year INTEGER,
+    genre TEXT
   );
 
   CREATE TABLE IF NOT EXISTS votes (
@@ -31,6 +33,17 @@ db.exec(`
     last_active TEXT NOT NULL DEFAULT (datetime('now'))
   );
 
+`);
+
+['year INTEGER', 'genre TEXT'].forEach((col) => {
+  try {
+    db.exec(`ALTER TABLE items ADD COLUMN ${col}`);
+  } catch {
+    /* column exists */
+  }
+});
+
+db.exec(`
   CREATE TABLE IF NOT EXISTS swipe_events (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     session_id TEXT NOT NULL,

@@ -2,745 +2,1099 @@
   {
     "id": "movie-001",
     "label": "The Shawshank Redemption",
-    "description": "Two imprisoned men bond over years, finding solace and redemption.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=The%20Shawshank%20Redempti"
+    "year": 1994,
+    "genre": "Drama",
+    "description": "Two imprisoned men bond over years, finding solace and redemption through acts of common decency.",
+    "image_url": "https://images.metahub.space/poster/large/tt0111161/img",
+    "imdb_id": "tt0111161"
   },
   {
     "id": "movie-002",
     "label": "The Godfather",
-    "description": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Godfather"
+    "year": 1972,
+    "genre": "Crime",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "image_url": "https://images.metahub.space/poster/large/tt0068646/img",
+    "imdb_id": "tt0068646"
   },
   {
     "id": "movie-003",
     "label": "The Dark Knight",
-    "description": "Batman faces the Joker, a criminal mastermind who plunges Gotham into chaos.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=The%20Dark%20Knight"
+    "year": 2008,
+    "genre": "Action",
+    "description": "Batman raises the stakes in his war on crime with the help of Lt. Gordon and District Attorney Harvey Dent.",
+    "image_url": "https://images.metahub.space/poster/large/tt0468569/img",
+    "imdb_id": "tt0468569"
   },
   {
     "id": "movie-004",
     "label": "Pulp Fiction",
-    "description": "The lives of two mob hitmen, a boxer, and others intertwine in Los Angeles.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Pulp%20Fiction"
+    "year": 1994,
+    "genre": "Crime",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+    "image_url": "https://images.metahub.space/poster/large/tt0110912/img",
+    "imdb_id": "tt0110912"
   },
   {
     "id": "movie-005",
     "label": "Forrest Gump",
-    "description": "The presidencies of Kennedy and Johnson unfold through the perspective of an Alabama man.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Forrest%20Gump"
+    "year": 1994,
+    "genre": "Drama",
+    "description": "The presidencies of Kennedy and Johnson unfold through the perspective of an Alabama man with a kind heart.",
+    "image_url": "https://images.metahub.space/poster/large/tt0109830/img",
+    "imdb_id": "tt0109830"
   },
   {
     "id": "movie-006",
     "label": "Inception",
-    "description": "A thief who steals corporate secrets through dream-sharing is offered a chance at redemption.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Inception"
+    "year": 2010,
+    "genre": "Sci-Fi",
+    "description": "A thief who steals corporate secrets through dream-sharing technology is offered a chance at redemption.",
+    "image_url": "https://images.metahub.space/poster/large/tt1375666/img",
+    "imdb_id": "tt1375666"
   },
   {
     "id": "movie-007",
     "label": "Fight Club",
-    "description": "An insomniac office worker and a soap maker form an underground fight club.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Fight%20Club"
+    "year": 1999,
+    "genre": "Drama",
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "image_url": "https://images.metahub.space/poster/large/tt0137523/img",
+    "imdb_id": "tt0137523"
   },
   {
     "id": "movie-008",
     "label": "The Matrix",
-    "description": "A computer hacker learns about the true nature of reality from mysterious rebels.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=The%20Matrix"
+    "year": 1999,
+    "genre": "Sci-Fi",
+    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "image_url": "https://images.metahub.space/poster/large/tt0133093/img",
+    "imdb_id": "tt0133093"
   },
   {
     "id": "movie-009",
     "label": "Goodfellas",
-    "description": "The story of Henry Hill and his life in the mob from 1955 to 1980.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Goodfellas"
+    "year": 1990,
+    "genre": "Crime",
+    "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his partners from 1955 to 1980.",
+    "image_url": "https://images.metahub.space/poster/large/tt0099685/img",
+    "imdb_id": "tt0099685"
   },
   {
     "id": "movie-010",
     "label": "The Silence of the Lambs",
-    "description": "A young FBI cadet must receive help from an incarcerated cannibal killer.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=The%20Silence%20of%20the%20Lam"
+    "year": 1991,
+    "genre": "Thriller",
+    "description": "A young F.B.I. cadet must receive the help of an incarcerated cannibal killer to catch another serial killer.",
+    "image_url": "https://images.metahub.space/poster/large/tt0102926/img",
+    "imdb_id": "tt0102926"
   },
   {
     "id": "movie-011",
     "label": "Interstellar",
-    "description": "A team of explorers travel through a wormhole in space to ensure humanity survival.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Interstellar"
+    "year": 2014,
+    "genre": "Sci-Fi",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "image_url": "https://images.metahub.space/poster/large/tt0816692/img",
+    "imdb_id": "tt0816692"
   },
   {
     "id": "movie-012",
     "label": "Parasite",
-    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship of two families.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Parasite"
+    "year": 2019,
+    "genre": "Thriller",
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "image_url": "https://images.metahub.space/poster/large/tt6751668/img",
+    "imdb_id": "tt6751668"
   },
   {
     "id": "movie-013",
     "label": "Spirited Away",
-    "description": "During her family move to the suburbs, a sullen 10-year-old wanders into a world ruled by gods.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Spirited%20Away"
+    "year": 2001,
+    "genre": "Animation",
+    "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods and spirits.",
+    "image_url": "https://images.metahub.space/poster/large/tt0245429/img",
+    "imdb_id": "tt0245429"
   },
   {
     "id": "movie-014",
     "label": "The Lord of the Rings: The Return of the King",
-    "description": "Gandalf and Aragorn lead the World of Men against Sauron to draw his gaze from Frodo.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=The%20Lord%20of%20the%20Rings%3A"
+    "year": 2003,
+    "genre": "Fantasy",
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam.",
+    "image_url": "https://images.metahub.space/poster/large/tt0167260/img",
+    "imdb_id": "tt0167260"
   },
   {
     "id": "movie-015",
     "label": "Schindler's List",
-    "description": "In German-occupied Poland, industrialist Oskar Schindler gradually becomes concerned for his Jewish workers.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Schindler's%20List"
+    "year": 1993,
+    "genre": "Drama",
+    "description": "In German-occupied Poland, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
+    "image_url": "https://images.metahub.space/poster/large/tt0108052/img",
+    "imdb_id": "tt0108052"
   },
   {
     "id": "movie-016",
     "label": "12 Angry Men",
-    "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=12%20Angry%20Men"
+    "year": 1957,
+    "genre": "Drama",
+    "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+    "image_url": "https://images.metahub.space/poster/large/tt0050083/img",
+    "imdb_id": "tt0050083"
   },
   {
     "id": "movie-017",
     "label": "The Green Mile",
-    "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of murder.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Green%20Mile"
+    "year": 1999,
+    "genre": "Drama",
+    "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder.",
+    "image_url": "https://images.metahub.space/poster/large/tt0120689/img",
+    "imdb_id": "tt0120689"
   },
   {
     "id": "movie-018",
     "label": "Gladiator",
+    "year": 2000,
+    "genre": "Action",
     "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Gladiator"
+    "image_url": "https://images.metahub.space/poster/large/tt0172495/img",
+    "imdb_id": "tt0172495"
   },
   {
     "id": "movie-019",
     "label": "The Prestige",
-    "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=The%20Prestige"
+    "year": 2006,
+    "genre": "Thriller",
+    "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything.",
+    "image_url": "https://images.metahub.space/poster/large/tt0482571/img",
+    "imdb_id": "tt0482571"
   },
   {
     "id": "movie-020",
     "label": "The Departed",
-    "description": "An undercover cop and a mole in the police attempt to identify each other.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=The%20Departed"
+    "year": 2006,
+    "genre": "Crime",
+    "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
+    "image_url": "https://images.metahub.space/poster/large/tt0407887/img",
+    "imdb_id": "tt0407887"
   },
   {
     "id": "movie-021",
     "label": "Whiplash",
-    "description": "A promising young drummer enrolls at a cut-throat music conservatory.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Whiplash"
+    "year": 2014,
+    "genre": "Drama",
+    "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams are mentored by an instructor who will stop at nothing.",
+    "image_url": "https://images.metahub.space/poster/large/tt2582802/img",
+    "imdb_id": "tt2582802"
   },
   {
     "id": "movie-022",
     "label": "The Lion King",
-    "description": "Lion prince Simba and his father are targeted by his bitter uncle Scar.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Lion%20King"
+    "year": 1994,
+    "genre": "Animation",
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "image_url": "https://images.metahub.space/poster/large/tt0110357/img",
+    "imdb_id": "tt0110357"
   },
   {
     "id": "movie-023",
     "label": "Back to the Future",
-    "description": "Marty McFly is sent back to 1955 in a DeLorean invented by his friend Doc Brown.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Back%20to%20the%20Future"
+    "year": 1985,
+    "genre": "Sci-Fi",
+    "description": "Marty McFly is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his friend Doc Brown.",
+    "image_url": "https://images.metahub.space/poster/large/tt0088763/img",
+    "imdb_id": "tt0088763"
   },
   {
     "id": "movie-024",
     "label": "Terminator 2: Judgment Day",
-    "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must protect her ten-year-old son.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Terminator%202%3A%20Judgment"
+    "year": 1991,
+    "genre": "Action",
+    "description": "A cyborg identical to the one who failed to kill Sarah Connor must now protect her ten-year-old son from a more advanced android.",
+    "image_url": "https://images.metahub.space/poster/large/tt0103064/img",
+    "imdb_id": "tt0103064"
   },
   {
     "id": "movie-025",
     "label": "Alien",
-    "description": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating a transmission.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Alien"
+    "year": 1979,
+    "genre": "Horror",
+    "description": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
+    "image_url": "https://images.metahub.space/poster/large/tt0078748/img",
+    "imdb_id": "tt0078748"
   },
   {
     "id": "movie-026",
     "label": "Blade Runner 2049",
-    "description": "Young Blade Runner K unearths a long-buried secret that leads him to track down former Blade Runner Rick Deckard.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Blade%20Runner%202049"
+    "year": 2017,
+    "genre": "Sci-Fi",
+    "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard.",
+    "image_url": "https://images.metahub.space/poster/large/tt1856101/img",
+    "imdb_id": "tt1856101"
   },
   {
     "id": "movie-027",
     "label": "Mad Max: Fury Road",
-    "description": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman to escape a tyrannical warlord.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Mad%20Max%3A%20Fury%20Road"
+    "year": 2015,
+    "genre": "Action",
+    "description": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman to escape from a tyrannical warlord.",
+    "image_url": "https://images.metahub.space/poster/large/tt1392190/img",
+    "imdb_id": "tt1392190"
   },
   {
     "id": "movie-028",
     "label": "Jurassic Park",
-    "description": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Jurassic%20Park"
+    "year": 1993,
+    "genre": "Adventure",
+    "description": "A pragmatic paleontologist touring an almost complete theme park on an island must protect a couple of kids when dinosaurs break loose.",
+    "image_url": "https://images.metahub.space/poster/large/tt0107290/img",
+    "imdb_id": "tt0107290"
   },
   {
     "id": "movie-029",
     "label": "E.T. the Extra-Terrestrial",
-    "description": "A troubled child summons the courage to help a friendly alien escape Earth.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=E.T.%20the%20Extra-Terrest"
+    "year": 1982,
+    "genre": "Family",
+    "description": "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.",
+    "image_url": "https://images.metahub.space/poster/large/tt0083866/img",
+    "imdb_id": "tt0083866"
   },
   {
     "id": "movie-030",
     "label": "Toy Story",
-    "description": "A cowboy doll is profoundly threatened when a new spaceman figure supplants him as top toy.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Toy%20Story"
+    "year": 1995,
+    "genre": "Animation",
+    "description": "A cowboy doll is profoundly threatened when a new spaceman action figure supplants him as top toy in a boy's room.",
+    "image_url": "https://images.metahub.space/poster/large/tt0114709/img",
+    "imdb_id": "tt0114709"
   },
   {
     "id": "movie-031",
     "label": "Finding Nemo",
-    "description": "After his son is captured in the Great Barrier Reef, a timid clownfish sets out on a journey.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Finding%20Nemo"
+    "year": 2003,
+    "genre": "Animation",
+    "description": "After his son is captured in the Great Barrier Reef, a timid clownfish sets out on a journey to bring him home.",
+    "image_url": "https://images.metahub.space/poster/large/tt0266543/img",
+    "imdb_id": "tt0266543"
   },
   {
     "id": "movie-032",
     "label": "Up",
-    "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Up"
+    "year": 2009,
+    "genre": "Animation",
+    "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+    "image_url": "https://images.metahub.space/poster/large/tt1049413/img",
+    "imdb_id": "tt1049413"
   },
   {
     "id": "movie-033",
     "label": "WALL-E",
-    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=WALL-E"
+    "year": 2008,
+    "genre": "Animation",
+    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will decide the fate of mankind.",
+    "image_url": "https://images.metahub.space/poster/large/tt0910970/img",
+    "imdb_id": "tt0910970"
   },
   {
     "id": "movie-034",
     "label": "Coco",
-    "description": "Aspiring musician Miguel confronts his family's ancestral ban on music in the Land of the Dead.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Coco"
+    "year": 2017,
+    "genre": "Animation",
+    "description": "Aspiring musician Miguel confronts his family's ancestral ban on music and enters the Land of the Dead to find his great-great-grandfather.",
+    "image_url": "https://images.metahub.space/poster/large/tt2380307/img",
+    "imdb_id": "tt2380307"
   },
   {
     "id": "movie-035",
     "label": "Inside Out",
-    "description": "After young Riley is uprooted, her emotions conflict on how best to navigate a new city.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Inside%20Out"
+    "year": 2015,
+    "genre": "Animation",
+    "description": "After young Riley moves to San Francisco, her emotions Joy, Fear, Anger, Disgust and Sadness conflict on how best to navigate life.",
+    "image_url": "https://images.metahub.space/poster/large/tt2096673/img",
+    "imdb_id": "tt2096673"
   },
   {
     "id": "movie-036",
     "label": "Ratatouille",
-    "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Ratatouille"
+    "year": 2007,
+    "genre": "Animation",
+    "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant in Paris.",
+    "image_url": "https://images.metahub.space/poster/large/tt0382932/img",
+    "imdb_id": "tt0382932"
   },
   {
     "id": "movie-037",
     "label": "The Incredibles",
-    "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Incredibles"
+    "year": 2004,
+    "genre": "Animation",
+    "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+    "image_url": "https://images.metahub.space/poster/large/tt0317705/img",
+    "imdb_id": "tt0317705"
   },
   {
     "id": "movie-038",
     "label": "Monsters, Inc.",
-    "description": "Monsters generate their city's power by scaring children, but they are terribly afraid themselves.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Monsters%2C%20Inc."
+    "year": 2001,
+    "genre": "Animation",
+    "description": "Monsters generate their city's power by scaring children, but they are terribly afraid themselves of being contaminated by kids.",
+    "image_url": "https://images.metahub.space/poster/large/tt0198781/img",
+    "imdb_id": "tt0198781"
   },
   {
     "id": "movie-039",
     "label": "Shrek",
-    "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go rescue a princess.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Shrek"
+    "year": 2001,
+    "genre": "Animation",
+    "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess.",
+    "image_url": "https://images.metahub.space/poster/large/tt0126029/img",
+    "imdb_id": "tt0126029"
   },
   {
     "id": "movie-040",
     "label": "How to Train Your Dragon",
-    "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=How%20to%20Train%20Your%20Drag"
+    "year": 2010,
+    "genre": "Animation",
+    "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself.",
+    "image_url": "https://images.metahub.space/poster/large/tt0892769/img",
+    "imdb_id": "tt0892769"
   },
   {
     "id": "movie-041",
     "label": "Frozen",
-    "description": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Frozen"
+    "year": 2013,
+    "genre": "Animation",
+    "description": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice, she may doom her kingdom.",
+    "image_url": "https://images.metahub.space/poster/large/tt2294629/img",
+    "imdb_id": "tt2294629"
   },
   {
     "id": "movie-042",
     "label": "Moana",
-    "description": "In Ancient Polynesia, a terrible curse incurred by the Demigod Maui reaches an impetuous Chieftain's daughter.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Moana"
+    "year": 2016,
+    "genre": "Animation",
+    "description": "In Ancient Polynesia, a terrible curse incurred by the Demigod Maui reaches Moana, who answers the Ocean's call.",
+    "image_url": "https://images.metahub.space/poster/large/tt3521164/img",
+    "imdb_id": "tt3521164"
   },
   {
     "id": "movie-043",
     "label": "Zootopia",
-    "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Zootopia"
+    "year": 2016,
+    "genre": "Animation",
+    "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+    "image_url": "https://images.metahub.space/poster/large/tt2948356/img",
+    "imdb_id": "tt2948356"
   },
   {
     "id": "movie-044",
     "label": "Big Hero 6",
-    "description": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Big%20Hero%206"
+    "year": 2014,
+    "genre": "Animation",
+    "description": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together form a superhero team.",
+    "image_url": "https://images.metahub.space/poster/large/tt2245084/img",
+    "imdb_id": "tt2245084"
   },
   {
     "id": "movie-045",
     "label": "La La Land",
-    "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=La%20La%20Land"
+    "year": 2016,
+    "genre": "Romance",
+    "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations.",
+    "image_url": "https://images.metahub.space/poster/large/tt3783958/img",
+    "imdb_id": "tt3783958"
   },
   {
     "id": "movie-046",
-    "label": "Whisper of the Heart",
-    "description": "A love story between a girl who loves reading books and a boy who has previously checked out all library books.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Whisper%20of%20the%20Heart"
+    "label": "Your Name",
+    "year": 2016,
+    "genre": "Anime",
+    "description": "Two strangers find themselves linked in a bizarre way when a connection forms between them.",
+    "image_url": "https://images.metahub.space/poster/large/tt5311514/img",
+    "imdb_id": "tt5311514"
   },
   {
     "id": "movie-047",
-    "label": "Your Name",
-    "description": "Two strangers find themselves linked in a bizarre way when a connection forms between them.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Your%20Name"
+    "label": "Akira",
+    "year": 1988,
+    "genre": "Anime",
+    "description": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic.",
+    "image_url": "https://images.metahub.space/poster/large/tt0094625/img",
+    "imdb_id": "tt0094625"
   },
   {
     "id": "movie-048",
-    "label": "Akira",
-    "description": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Akira"
+    "label": "Princess Mononoke",
+    "year": 1997,
+    "genre": "Anime",
+    "description": "On a journey to find the cure for a curse, Ashitaka finds himself in the middle of a war between forest gods and humans.",
+    "image_url": "https://images.metahub.space/poster/large/tt0119698/img",
+    "imdb_id": "tt0119698"
   },
   {
     "id": "movie-049",
-    "label": "Ghost in the Shell",
-    "description": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Ghost%20in%20the%20Shell"
+    "label": "Howl's Moving Castle",
+    "year": 2004,
+    "genre": "Anime",
+    "description": "When an unconfident young woman is cursed with an old body, her only chance at breaking it lies with a self-indulgent wizard.",
+    "image_url": "https://images.metahub.space/poster/large/tt0347149/img",
+    "imdb_id": "tt0347149"
   },
   {
     "id": "movie-050",
-    "label": "Princess Mononoke",
-    "description": "On a journey to find the cure for a Tatarigami curse, Ashitaka finds himself in the middle of a war.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Princess%20Mononoke"
+    "label": "My Neighbor Totoro",
+    "year": 1988,
+    "genre": "Anime",
+    "description": "When two girls move to the country, they have adventures with the wondrous forest spirits who live nearby.",
+    "image_url": "https://images.metahub.space/poster/large/tt0096283/img",
+    "imdb_id": "tt0096283"
   },
   {
     "id": "movie-051",
-    "label": "Howl's Moving Castle",
-    "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance is a wizard.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Howl's%20Moving%20Castle"
+    "label": "Grave of the Fireflies",
+    "year": 1988,
+    "genre": "Anime",
+    "description": "A young boy and his little sister struggle to survive in Japan during World War II after losing their mother.",
+    "image_url": "https://images.metahub.space/poster/large/tt0095327/img",
+    "imdb_id": "tt0095327"
   },
   {
     "id": "movie-052",
-    "label": "My Neighbor Totoro",
-    "description": "When two girls move to the country to be near their ailing mother, they have adventures with forest spirits.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=My%20Neighbor%20Totoro"
+    "label": "Se7en",
+    "year": 1995,
+    "genre": "Thriller",
+    "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives in a grim, rain-soaked city.",
+    "image_url": "https://images.metahub.space/poster/large/tt0114369/img",
+    "imdb_id": "tt0114369"
   },
   {
     "id": "movie-053",
-    "label": "Grave of the Fireflies",
-    "description": "A young boy and his little sister struggle to survive in Japan during World War II.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Grave%20of%20the%20Fireflies"
+    "label": "Memento",
+    "year": 2000,
+    "genre": "Thriller",
+    "description": "A man with short-term memory loss attempts to track down his wife's murderer using notes, tattoos, and Polaroid photos.",
+    "image_url": "https://images.metahub.space/poster/large/tt0138353/img",
+    "imdb_id": "tt0138353"
   },
   {
     "id": "movie-054",
-    "label": "Se7en",
-    "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Se7en"
+    "label": "American History X",
+    "year": 1998,
+    "genre": "Drama",
+    "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+    "image_url": "https://images.metahub.space/poster/large/tt0120586/img",
+    "imdb_id": "tt0120586"
   },
   {
     "id": "movie-055",
-    "label": "The Usual Suspects",
-    "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=The%20Usual%20Suspects"
+    "label": "The Pianist",
+    "year": 2002,
+    "genre": "Drama",
+    "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto during World War II.",
+    "image_url": "https://images.metahub.space/poster/large/tt6449044/img",
+    "imdb_id": "tt6449044"
   },
   {
     "id": "movie-056",
-    "label": "Memento",
-    "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Memento"
+    "label": "Life Is Beautiful",
+    "year": 1997,
+    "genre": "Drama",
+    "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses imagination to shield his boy.",
+    "image_url": "https://images.metahub.space/poster/large/tt0118799/img",
+    "imdb_id": "tt0118799"
   },
   {
     "id": "movie-057",
-    "label": "Requiem for a Dream",
-    "description": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Requiem%20for%20a%20Dream"
+    "label": "Pan's Labyrinth",
+    "year": 2006,
+    "genre": "Fantasy",
+    "description": "In the Falangist Spain of 1944, a bookish young stepdaughter of a sadistic army officer escapes into a dark fantasy world.",
+    "image_url": "https://images.metahub.space/poster/large/tt0457430/img",
+    "imdb_id": "tt0457430"
   },
   {
     "id": "movie-058",
-    "label": "American History X",
-    "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=American%20History%20X"
+    "label": "Oldboy",
+    "year": 2003,
+    "genre": "Thriller",
+    "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released and given five days to find his captor.",
+    "image_url": "https://images.metahub.space/poster/large/tt0364569/img",
+    "imdb_id": "tt0364569"
   },
   {
     "id": "movie-059",
-    "label": "The Pianist",
-    "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=The%20Pianist"
+    "label": "Get Out",
+    "year": 2017,
+    "genre": "Horror",
+    "description": "A young African-American visits his white girlfriend's parents for the weekend, where his uneasiness about their reception grows.",
+    "image_url": "https://images.metahub.space/poster/large/tt5052448/img",
+    "imdb_id": "tt5052448"
   },
   {
     "id": "movie-060",
-    "label": "Life Is Beautiful",
-    "description": "When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses imagination.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Life%20Is%20Beautiful"
+    "label": "Black Panther",
+    "year": 2018,
+    "genre": "Action",
+    "description": "T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront a challenger from his past.",
+    "image_url": "https://images.metahub.space/poster/large/tt1825683/img",
+    "imdb_id": "tt1825683"
   },
   {
     "id": "movie-061",
-    "label": "Cinema Paradiso",
-    "description": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Cinema%20Paradiso"
+    "label": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "genre": "Animation",
+    "description": "Teen Miles Morales becomes Spider-Man of his universe and must team with five counterparts from other dimensions.",
+    "image_url": "https://images.metahub.space/poster/large/tt4633694/img",
+    "imdb_id": "tt4633694"
   },
   {
     "id": "movie-062",
-    "label": "Amélie",
-    "description": "Amélie is an innocent and naive girl in Paris with her own sense of justice.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Am%C3%A9lie"
+    "label": "Avengers: Endgame",
+    "year": 2019,
+    "genre": "Action",
+    "description": "After the devastating events of Infinity War, the universe is in ruins. The remaining Avengers assemble once more.",
+    "image_url": "https://images.metahub.space/poster/large/tt4154796/img",
+    "imdb_id": "tt4154796"
   },
   {
     "id": "movie-063",
-    "label": "Pan's Labyrinth",
-    "description": "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into fantasy.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Pan's%20Labyrinth"
+    "label": "Iron Man",
+    "year": 2008,
+    "genre": "Action",
+    "description": "After being held captive, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "image_url": "https://images.metahub.space/poster/large/tt0371746/img",
+    "imdb_id": "tt0371746"
   },
   {
     "id": "movie-064",
-    "label": "Oldboy",
-    "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find he must find his captor.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Oldboy"
+    "label": "Guardians of the Galaxy",
+    "year": 2014,
+    "genre": "Action",
+    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior from taking control of the universe.",
+    "image_url": "https://images.metahub.space/poster/large/tt2015381/img",
+    "imdb_id": "tt2015381"
   },
   {
     "id": "movie-065",
-    "label": "Memories of Murder",
-    "description": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Memories%20of%20Murder"
+    "label": "Doctor Strange",
+    "year": 2016,
+    "genre": "Action",
+    "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+    "image_url": "https://images.metahub.space/poster/large/tt1211837/img",
+    "imdb_id": "tt1211837"
   },
   {
     "id": "movie-066",
-    "label": "The Handmaiden",
-    "description": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=The%20Handmaiden"
+    "label": "Thor: Ragnarok",
+    "year": 2017,
+    "genre": "Action",
+    "description": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök.",
+    "image_url": "https://images.metahub.space/poster/large/tt3501632/img",
+    "imdb_id": "tt3501632"
   },
   {
     "id": "movie-067",
-    "label": "Shoplifters",
-    "description": "A family of small-time crooks take in a child they find outside in the cold.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Shoplifters"
+    "label": "Logan",
+    "year": 2017,
+    "genre": "Action",
+    "description": "In a future where mutants are nearly extinct, an elderly Logan cares for an ailing Professor X on the Mexican border.",
+    "image_url": "https://images.metahub.space/poster/large/tt3315342/img",
+    "imdb_id": "tt3315342"
   },
   {
     "id": "movie-068",
-    "label": "Roma",
-    "description": "A year in the life of a middle-class family's maid in Mexico City in the early 1970s.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Roma"
+    "label": "Deadpool",
+    "year": 2016,
+    "genre": "Action",
+    "description": "A wisecracking mercenary is experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.",
+    "image_url": "https://images.metahub.space/poster/large/tt1431045/img",
+    "imdb_id": "tt1431045"
   },
   {
     "id": "movie-069",
-    "label": "Moonlight",
-    "description": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Moonlight"
+    "label": "The Social Network",
+    "year": 2010,
+    "genre": "Drama",
+    "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become Facebook, he faces legal complications.",
+    "image_url": "https://images.metahub.space/poster/large/tt1285016/img",
+    "imdb_id": "tt1285016"
   },
   {
     "id": "movie-070",
-    "label": "Get Out",
-    "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness reaches a boiling point.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Get%20Out"
+    "label": "The Wolf of Wall Street",
+    "year": 2013,
+    "genre": "Drama",
+    "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his dramatic fall.",
+    "image_url": "https://images.metahub.space/poster/large/tt0993846/img",
+    "imdb_id": "tt0993846"
   },
   {
     "id": "movie-071",
-    "label": "Black Panther",
-    "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Black%20Panther"
+    "label": "No Country for Old Men",
+    "year": 2007,
+    "genre": "Thriller",
+    "description": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash.",
+    "image_url": "https://images.metahub.space/poster/large/tt0477348/img",
+    "imdb_id": "tt0477348"
   },
   {
     "id": "movie-072",
-    "label": "Spider-Man: Into the Spider-Verse",
-    "description": "Teen Miles Morales becomes the Spider-Man of his universe and must team with five counterparts.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Spider-Man%3A%20Into%20the%20S"
+    "label": "The Big Lebowski",
+    "year": 1998,
+    "genre": "Comedy",
+    "description": "Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug.",
+    "image_url": "https://images.metahub.space/poster/large/tt0118715/img",
+    "imdb_id": "tt0118715"
   },
   {
     "id": "movie-073",
-    "label": "Avengers: Endgame",
-    "description": "After the devastating events of Infinity War, the universe is in ruins.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Avengers%3A%20Endgame"
+    "label": "Django Unchained",
+    "year": 2012,
+    "genre": "Western",
+    "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+    "image_url": "https://images.metahub.space/poster/large/tt1853728/img",
+    "imdb_id": "tt1853728"
   },
   {
     "id": "movie-074",
-    "label": "Iron Man",
-    "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Iron%20Man"
+    "label": "Inglourious Basterds",
+    "year": 2009,
+    "genre": "War",
+    "description": "In Nazi-occupied France, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's revenge.",
+    "image_url": "https://images.metahub.space/poster/large/tt0361748/img",
+    "imdb_id": "tt0361748"
   },
   {
     "id": "movie-075",
-    "label": "Guardians of the Galaxy",
-    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior from taking control of the universe.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Guardians%20of%20the%20Galax"
+    "label": "Kill Bill: Vol. 1",
+    "year": 2003,
+    "genre": "Action",
+    "description": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+    "image_url": "https://images.metahub.space/poster/large/tt0266697/img",
+    "imdb_id": "tt0266697"
   },
   {
     "id": "movie-076",
-    "label": "Doctor Strange",
-    "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Doctor%20Strange"
+    "label": "Reservoir Dogs",
+    "year": 1992,
+    "genre": "Crime",
+    "description": "When a simple jewelry heist goes wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+    "image_url": "https://images.metahub.space/poster/large/tt0105236/img",
+    "imdb_id": "tt0105236"
   },
   {
     "id": "movie-077",
-    "label": "Thor: Ragnarok",
-    "description": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Thor%3A%20Ragnarok"
+    "label": "300",
+    "year": 2006,
+    "genre": "Action",
+    "description": "King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
+    "image_url": "https://images.metahub.space/poster/large/tt0416449/img",
+    "imdb_id": "tt0416449"
   },
   {
     "id": "movie-078",
-    "label": "Captain America: The Winter Soldier",
-    "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams with Black Widow.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Captain%20America%3A%20The%20W"
+    "label": "V for Vendetta",
+    "year": 2005,
+    "genre": "Sci-Fi",
+    "description": "In a future British dystopian society, a shadowy freedom fighter plots to overthrow the tyrannical government.",
+    "image_url": "https://images.metahub.space/poster/large/tt0434409/img",
+    "imdb_id": "tt0434409"
   },
   {
     "id": "movie-079",
-    "label": "Logan",
-    "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Logan"
+    "label": "Arrival",
+    "year": 2016,
+    "genre": "Sci-Fi",
+    "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear worldwide.",
+    "image_url": "https://images.metahub.space/poster/large/tt2543164/img",
+    "imdb_id": "tt2543164"
   },
   {
     "id": "movie-080",
-    "label": "Deadpool",
-    "description": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Deadpool"
+    "label": "Blade Runner",
+    "year": 1982,
+    "genre": "Sci-Fi",
+    "description": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth.",
+    "image_url": "https://images.metahub.space/poster/large/tt0083658/img",
+    "imdb_id": "tt0083658"
   },
   {
     "id": "movie-081",
-    "label": "X-Men: Days of Future Past",
-    "description": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=X-Men%3A%20Days%20of%20Future%20"
+    "label": "Dune",
+    "year": 2021,
+    "genre": "Sci-Fi",
+    "description": "Paul Atreides, a brilliant young man born into a great destiny, must travel to the most dangerous planet in the universe.",
+    "image_url": "https://images.metahub.space/poster/large/tt1160419/img",
+    "imdb_id": "tt1160419"
   },
   {
     "id": "movie-082",
-    "label": "The Social Network",
-    "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become Facebook.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Social%20Network"
+    "label": "The Martian",
+    "year": 2015,
+    "genre": "Sci-Fi",
+    "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on ingenuity to signal Earth.",
+    "image_url": "https://images.metahub.space/poster/large/tt3659388/img",
+    "imdb_id": "tt3659388"
   },
   {
     "id": "movie-083",
-    "label": "The Big Short",
-    "description": "In 2006-2007 a group of investors bet against the US mortgage market.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=The%20Big%20Short"
+    "label": "Gravity",
+    "year": 2013,
+    "genre": "Sci-Fi",
+    "description": "Two astronauts work together to survive after an accident leaves them stranded in space with no connection to Earth.",
+    "image_url": "https://images.metahub.space/poster/large/tt1454468/img",
+    "imdb_id": "tt1454468"
   },
   {
     "id": "movie-084",
-    "label": "Moneyball",
-    "description": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Moneyball"
+    "label": "Hidden Figures",
+    "year": 2016,
+    "genre": "Drama",
+    "description": "The story of a team of female African-American mathematicians who served a vital role in NASA during the space race.",
+    "image_url": "https://images.metahub.space/poster/large/tt4846340/img",
+    "imdb_id": "tt4846340"
   },
   {
     "id": "movie-085",
-    "label": "The Wolf of Wall Street",
-    "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his fall involving crime.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=The%20Wolf%20of%20Wall%20Stree"
+    "label": "The Imitation Game",
+    "year": 2014,
+    "genre": "Drama",
+    "description": "During World War II, mathematician Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",
+    "image_url": "https://images.metahub.space/poster/large/tt2084970/img",
+    "imdb_id": "tt2084970"
   },
   {
     "id": "movie-086",
-    "label": "There Will Be Blood",
-    "description": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=There%20Will%20Be%20Blood"
+    "label": "A Beautiful Mind",
+    "year": 2001,
+    "genre": "Drama",
+    "description": "After John Nash accepts secret work in cryptography, his life takes a turn for the nightmarish as he battles mental illness.",
+    "image_url": "https://images.metahub.space/poster/large/tt0268978/img",
+    "imdb_id": "tt0268978"
   },
   {
     "id": "movie-087",
-    "label": "No Country for Old Men",
-    "description": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=No%20Country%20for%20Old%20Men"
+    "label": "Spotlight",
+    "year": 2015,
+    "genre": "Drama",
+    "description": "The true story of how the Boston Globe uncovered the massive scandal of child molestation within the local Catholic Archdiocese.",
+    "image_url": "https://images.metahub.space/poster/large/tt1895587/img",
+    "imdb_id": "tt1895587"
   },
   {
     "id": "movie-088",
-    "label": "Fargo",
-    "description": "Jerry works in his father-in-law's car dealership and has gotten himself in financial problems.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Fargo"
+    "label": "The Revenant",
+    "year": 2015,
+    "genre": "Adventure",
+    "description": "A frontiersman on a fur trading expedition fights for survival after being mauled by a bear and left for dead.",
+    "image_url": "https://images.metahub.space/poster/large/tt3113466/img",
+    "imdb_id": "tt3113466"
   },
   {
     "id": "movie-089",
-    "label": "The Big Lebowski",
-    "description": "Jeff \"The Dude\" Lebowski, mistaken for a millionaire, seeks restitution for his ruined rug.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=The%20Big%20Lebowski"
+    "label": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genre": "Comedy",
+    "description": "A writer encounters the owner of an aging European hotel, who tells him of his days serving as lobby boy to a legendary concierge.",
+    "image_url": "https://images.metahub.space/poster/large/tt2278388/img",
+    "imdb_id": "tt2278388"
   },
   {
     "id": "movie-090",
-    "label": "O Brother, Where Art Thou?",
-    "description": "In the deep south during the 1930s, three escaped convicts search for hidden treasure.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=O%20Brother%2C%20Where%20Art%20T"
+    "label": "Moonrise Kingdom",
+    "year": 2012,
+    "genre": "Romance",
+    "description": "A pair of young lovers flee their New England town, causing a local search party to fan out and find them.",
+    "image_url": "https://images.metahub.space/poster/large/tt1748122/img",
+    "imdb_id": "tt1748122"
   },
   {
     "id": "movie-091",
-    "label": "Burn After Reading",
-    "description": "A disk containing mysterious information from a CIA agent ends up in the hands of two unscrupulous gym employees.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Burn%20After%20Reading"
+    "label": "The Royal Tenenbaums",
+    "year": 2001,
+    "genre": "Comedy",
+    "description": "The eccentric members of a dysfunctional family reluctantly gather under one roof for various reasons.",
+    "image_url": "https://images.metahub.space/poster/large/tt0281173/img",
+    "imdb_id": "tt0281173"
   },
   {
     "id": "movie-092",
-    "label": "True Grit",
-    "description": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=True%20Grit"
+    "label": "Casablanca",
+    "year": 1942,
+    "genre": "Romance",
+    "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover escape Nazis in Morocco.",
+    "image_url": "https://images.metahub.space/poster/large/tt0034583/img",
+    "imdb_id": "tt0034583"
   },
   {
     "id": "movie-093",
-    "label": "Django Unchained",
-    "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal plantation owner.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Django%20Unchained"
+    "label": "Citizen Kane",
+    "year": 1941,
+    "genre": "Drama",
+    "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final word.",
+    "image_url": "https://images.metahub.space/poster/large/tt0033467/img",
+    "imdb_id": "tt0033467"
   },
   {
     "id": "movie-094",
-    "label": "Inglourious Basterds",
-    "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Inglourious%20Basterds"
+    "label": "Psycho",
+    "year": 1960,
+    "genre": "Horror",
+    "description": "A Phoenix secretary embezzles money and checks into a remote motel run by a young man under the domination of his mother.",
+    "image_url": "https://images.metahub.space/poster/large/tt0054215/img",
+    "imdb_id": "tt0054215"
   },
   {
     "id": "movie-095",
-    "label": "Kill Bill: Vol. 1",
-    "description": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Kill%20Bill%3A%20Vol.%201"
+    "label": "Jaws",
+    "year": 1975,
+    "genre": "Thriller",
+    "description": "When a killer shark unleashes chaos on a beach community, a police chief, a scientist and a grizzled fisherman hunt it down.",
+    "image_url": "https://images.metahub.space/poster/large/tt0073195/img",
+    "imdb_id": "tt0073195"
   },
   {
     "id": "movie-096",
-    "label": "Reservoir Dogs",
-    "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Reservoir%20Dogs"
+    "label": "Raiders of the Lost Ark",
+    "year": 1981,
+    "genre": "Adventure",
+    "description": "Archaeologist Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain it.",
+    "image_url": "https://images.metahub.space/poster/large/tt0082971/img",
+    "imdb_id": "tt0082971"
   },
   {
     "id": "movie-097",
-    "label": "Jackie Brown",
-    "description": "A flight attendant with a criminal past gets nabbed by the FBI for smuggling.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Jackie%20Brown"
+    "label": "Star Wars",
+    "year": 1977,
+    "genre": "Sci-Fi",
+    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy.",
+    "image_url": "https://images.metahub.space/poster/large/tt0076759/img",
+    "imdb_id": "tt0076759"
   },
   {
     "id": "movie-098",
-    "label": "Sin City",
-    "description": "An exploration of the dark and miserable Basin City and three of its residents.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Sin%20City"
+    "label": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "genre": "Romance",
+    "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+    "image_url": "https://images.metahub.space/poster/large/tt0338013/img",
+    "imdb_id": "tt0338013"
   },
   {
     "id": "movie-099",
-    "label": "300",
-    "description": "King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=300"
+    "label": "Her",
+    "year": 2013,
+    "genre": "Romance",
+    "description": "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
+    "image_url": "https://images.metahub.space/poster/large/tt3720788/img",
+    "imdb_id": "tt3720788"
   },
   {
     "id": "movie-100",
-    "label": "Watchmen",
-    "description": "In 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own investigation.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Watchmen"
+    "label": "The Truman Show",
+    "year": 1998,
+    "genre": "Drama",
+    "description": "An insurance salesman discovers his whole life is actually a reality TV show and must decide whether to escape.",
+    "image_url": "https://images.metahub.space/poster/large/tt0120382/img",
+    "imdb_id": "tt0120382"
   },
   {
     "id": "movie-101",
-    "label": "V for Vendetta",
-    "description": "In a future British dystopian society, a shadowy freedom fighter plots to overthrow the tyrannical government.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=V%20for%20Vendetta"
+    "label": "Groundhog Day",
+    "year": 1993,
+    "genre": "Comedy",
+    "description": "A weatherman finds himself living the same day over and over again in a small Pennsylvania town.",
+    "image_url": "https://images.metahub.space/poster/large/tt0107048/img",
+    "imdb_id": "tt0107048"
   },
   {
     "id": "movie-102",
-    "label": "Children of Men",
-    "description": "In 2027, in a chaotic world in which women have become somehow infertile, a former activist agrees to help transport a miraculously pregnant woman.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Children%20of%20Men"
+    "label": "The Shining",
+    "year": 1980,
+    "genre": "Horror",
+    "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence.",
+    "image_url": "https://images.metahub.space/poster/large/tt0081505/img",
+    "imdb_id": "tt0081505"
   },
   {
     "id": "movie-103",
-    "label": "District 9",
-    "description": "Violence ensues after an extraterrestrial race forced to live in slum-like conditions on Earth finds a kindred spirit in a government agent.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=District%209"
+    "label": "Aliens",
+    "year": 1986,
+    "genre": "Sci-Fi",
+    "description": "Decades after surviving the Nostromo incident, Ellen Ripley is sent back to the moon LV-426 with a squad of marines.",
+    "image_url": "https://images.metahub.space/poster/large/tt0090605/img",
+    "imdb_id": "tt0090605"
   },
   {
     "id": "movie-104",
-    "label": "Arrival",
-    "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Arrival"
+    "label": "The Thing",
+    "year": 1982,
+    "genre": "Horror",
+    "description": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+    "image_url": "https://images.metahub.space/poster/large/tt0084787/img",
+    "imdb_id": "tt0084787"
   },
   {
     "id": "movie-105",
-    "label": "Blade Runner",
-    "description": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Blade%20Runner"
+    "label": "Apocalypse Now",
+    "year": 1979,
+    "genre": "War",
+    "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel.",
+    "image_url": "https://images.metahub.space/poster/large/tt0078788/img",
+    "imdb_id": "tt0078788"
   },
   {
     "id": "movie-106",
-    "label": "Dune",
-    "description": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset in the galaxy.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Dune"
+    "label": "Full Metal Jacket",
+    "year": 1987,
+    "genre": "War",
+    "description": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits.",
+    "image_url": "https://images.metahub.space/poster/large/tt0093058/img",
+    "imdb_id": "tt0093058"
   },
   {
     "id": "movie-107",
-    "label": "The Martian",
-    "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Martian"
+    "label": "Platoon",
+    "year": 1986,
+    "genre": "War",
+    "description": "A young soldier in Vietnam faces a moral crisis when confronted with the horrors of war and the duality of man.",
+    "image_url": "https://images.metahub.space/poster/large/tt0091763/img",
+    "imdb_id": "tt0091763"
   },
   {
     "id": "movie-108",
-    "label": "Gravity",
-    "description": "Two astronauts work together to survive after an accident leaves them stranded in space.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Gravity"
+    "label": "Rocky",
+    "year": 1976,
+    "genre": "Drama",
+    "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the heavyweight champion in a bout.",
+    "image_url": "https://images.metahub.space/poster/large/tt0075148/img",
+    "imdb_id": "tt0075148"
   },
   {
     "id": "movie-109",
-    "label": "First Man",
-    "description": "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=First%20Man"
+    "label": "Raging Bull",
+    "year": 1980,
+    "genre": "Drama",
+    "description": "The life of boxer Jake LaMotta, whose violence and temper led him to the top in the ring but destroyed his life outside it.",
+    "image_url": "https://images.metahub.space/poster/large/tt0081398/img",
+    "imdb_id": "tt0081398"
   },
   {
     "id": "movie-110",
-    "label": "Hidden Figures",
-    "description": "The story of a team of female African-American mathematicians who served a vital role in NASA during the early years of the U.S. space program.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Hidden%20Figures"
+    "label": "Scarface",
+    "year": 1983,
+    "genre": "Crime",
+    "description": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed and power.",
+    "image_url": "https://images.metahub.space/poster/large/tt0086250/img",
+    "imdb_id": "tt0086250"
   },
   {
     "id": "movie-111",
-    "label": "The Imitation Game",
-    "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=The%20Imitation%20Game"
+    "label": "Heat",
+    "year": 1995,
+    "genre": "Crime",
+    "description": "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.",
+    "image_url": "https://images.metahub.space/poster/large/tt0113277/img",
+    "imdb_id": "tt0113277"
   },
   {
     "id": "movie-112",
-    "label": "A Beautiful Mind",
-    "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=A%20Beautiful%20Mind"
+    "label": "The Usual Suspects",
+    "year": 1995,
+    "genre": "Crime",
+    "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met.",
+    "image_url": "https://images.metahub.space/poster/large/tt0114814/img",
+    "imdb_id": "tt0114814"
   },
   {
     "id": "movie-113",
-    "label": "The Theory of Everything",
-    "description": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=The%20Theory%20of%20Everythi"
+    "label": "Fargo",
+    "year": 1996,
+    "genre": "Crime",
+    "description": "Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of Marge Gunderson.",
+    "image_url": "https://images.metahub.space/poster/large/tt0116282/img",
+    "imdb_id": "tt0116282"
   },
   {
     "id": "movie-114",
-    "label": "Spotlight",
-    "description": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=Spotlight"
+    "label": "There Will Be Blood",
+    "year": 2007,
+    "genre": "Drama",
+    "description": "A story of family, religion, hatred, oil and madness in California at the turn of the twentieth century.",
+    "image_url": "https://images.metahub.space/poster/large/tt0469494/img",
+    "imdb_id": "tt0469494"
   },
   {
     "id": "movie-115",
-    "label": "Milk",
-    "description": "The story of Harvey Milk and his struggles as an American gay activist who fought for gay rights.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Milk"
+    "label": "Birdman",
+    "year": 2014,
+    "genre": "Drama",
+    "description": "A washed-up superhero actor attempts to revive his career by writing, directing, and starring in a Broadway play.",
+    "image_url": "https://images.metahub.space/poster/large/tt2562232/img",
+    "imdb_id": "tt2562232"
   },
   {
     "id": "movie-116",
-    "label": "Dallas Buyers Club",
-    "description": "In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Dallas%20Buyers%20Club"
+    "label": "Moonlight",
+    "year": 2016,
+    "genre": "Drama",
+    "description": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood and adulthood.",
+    "image_url": "https://images.metahub.space/poster/large/tt4975722/img",
+    "imdb_id": "tt4975722"
   },
   {
     "id": "movie-117",
-    "label": "The Revenant",
-    "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=The%20Revenant"
+    "label": "Nomadland",
+    "year": 2020,
+    "genre": "Drama",
+    "description": "A woman in her sixties embarks on a journey through the American West, living as a van-dwelling modern-day nomad.",
+    "image_url": "https://images.metahub.space/poster/large/tt9770150/img",
+    "imdb_id": "tt9770150"
   },
   {
     "id": "movie-118",
-    "label": "Birdman",
-    "description": "A washed-up superhero actor attempts to revive his career by writing, directing, and starring in a Broadway production.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Birdman"
+    "label": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genre": "Sci-Fi",
+    "description": "A middle-aged Chinese immigrant is swept up in an insane adventure in which she alone can save existence.",
+    "image_url": "https://images.metahub.space/poster/large/tt6710474/img",
+    "imdb_id": "tt6710474"
   },
   {
     "id": "movie-119",
-    "label": "The Grand Budapest Hotel",
-    "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=The%20Grand%20Budapest%20Hot"
+    "label": "Top Gun: Maverick",
+    "year": 2022,
+    "genre": "Action",
+    "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, training a new generation for a dangerous mission.",
+    "image_url": "https://images.metahub.space/poster/large/tt1745960/img",
+    "imdb_id": "tt1745960"
   },
   {
     "id": "movie-120",
-    "label": "Fantastic Mr. Fox",
-    "description": "An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.",
-    "image_url": "https://placehold.co/400x600/2d4059/ff6b6b/png?font=source-sans-pro&text=Fantastic%20Mr.%20Fox"
+    "label": "Oppenheimer",
+    "year": 2023,
+    "genre": "Drama",
+    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+    "image_url": "https://images.metahub.space/poster/large/tt15398776/img",
+    "imdb_id": "tt15398776"
   },
   {
     "id": "movie-121",
-    "label": "Isle of Dogs",
-    "description": "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.",
-    "image_url": "https://placehold.co/400x600/16213e/e94560/png?font=source-sans-pro&text=Isle%20of%20Dogs"
+    "label": "Barbie",
+    "year": 2023,
+    "genre": "Comedy",
+    "description": "Barbie suffers a crisis that leads her to question her world and her existence in this satirical adventure.",
+    "image_url": "https://images.metahub.space/poster/large/tt1517268/img",
+    "imdb_id": "tt1517268"
   },
   {
     "id": "movie-122",
-    "label": "Moonrise Kingdom",
-    "description": "A pair of young lovers flee their New England town, causing a local search party to fan out to find them.",
-    "image_url": "https://placehold.co/400x600/0f3460/f5a623/png?font=source-sans-pro&text=Moonrise%20Kingdom"
-  },
-  {
-    "id": "movie-123",
-    "label": "Rushmore",
-    "description": "The extracurricular king of Rushmore preparatory school is put on academic probation.",
-    "image_url": "https://placehold.co/400x600/533483/4ecca3/png?font=source-sans-pro&text=Rushmore"
-  },
-  {
-    "id": "movie-124",
-    "label": "The Royal Tenenbaums",
-    "description": "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.",
-    "image_url": "https://placehold.co/400x600/1a1a2e/00adb5/png?font=source-sans-pro&text=The%20Royal%20Tenenbaums"
+    "label": "Dune: Part Two",
+    "year": 2024,
+    "genre": "Sci-Fi",
+    "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+    "image_url": "https://images.metahub.space/poster/large/tt15239678/img",
+    "imdb_id": "tt15239678"
   }
 ]
