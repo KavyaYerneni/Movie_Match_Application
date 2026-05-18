@@ -56,6 +56,10 @@ export function fetchResults(sort = 'most-loved') {
   return request(`/results?sort=${encodeURIComponent(sort)}`);
 }
 
+export function fetchSkips(sessionId) {
+  return request(`/skips?sessionId=${encodeURIComponent(sessionId)}`);
+}
+
 export function fetchMatches(sessionId, threshold = 60) {
   return request(
     `/matches?sessionId=${encodeURIComponent(sessionId)}&threshold=${threshold}`

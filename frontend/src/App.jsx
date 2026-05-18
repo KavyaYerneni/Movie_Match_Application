@@ -2,9 +2,10 @@ import { useState, useEffect, useCallback } from 'react';
 import SwipeDeck from './components/SwipeDeck';
 import ResultsView from './components/ResultsView';
 import MatchesView from './components/MatchesView';
+import SkipsView from './components/SkipsView';
 import { ensureSession, fetchItems } from './api';
 
-const VIEWS = { swipe: 'swipe', results: 'results', matches: 'matches' };
+const VIEWS = { swipe: 'swipe', results: 'results', matches: 'matches', skips: 'skips' };
 
 export default function App() {
   const [view, setView] = useState(VIEWS.swipe);
@@ -77,7 +78,10 @@ export default function App() {
   return (
     <main className="app-shell">
       <nav className="top-nav">
-        <h1 className="logo">Movie Match</h1>
+        <h1 className="logo">
+          Movie Match
+          <span className="logo-sub">Swipe · Vote · Discover</span>
+        </h1>
         <div className="nav-tabs">
           <button
             type="button"
@@ -100,6 +104,13 @@ export default function App() {
           >
             Matches
           </button>
+          <button
+            type="button"
+            className={view === VIEWS.skips ? 'active' : ''}
+            onClick={() => setView(VIEWS.skips)}
+          >
+            My Skips
+          </button>
         </div>
       </nav>
 
@@ -119,6 +130,9 @@ export default function App() {
       )}
       {view === VIEWS.matches && sessionId && (
         <MatchesView sessionId={sessionId} onBack={() => setView(VIEWS.swipe)} />
+      )}
+      {view === VIEWS.skips && sessionId && (
+        <SkipsView sessionId={sessionId} onBack={() => setView(VIEWS.swipe)} />
       )}
     </main>
   );
