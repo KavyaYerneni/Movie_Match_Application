@@ -46,7 +46,7 @@ app.get('/items', (req, res) => {
   touchSession(sessionId);
 
   const rows = db.prepare(`
-    SELECT i.id, i.label, i.description, i.image_url
+    SELECT i.id, i.label, i.description, i.image_url, i.year, i.genre
     FROM items i
     WHERE i.id NOT IN (
       SELECT item_id FROM votes WHERE session_id = ?
@@ -142,7 +142,7 @@ app.delete('/vote/last', (req, res) => {
 /** GET /results — aggregated yes/no counts */
 app.get('/results', (req, res) => {
   const sort = req.query.sort || 'most-loved';
-  const validSorts = ['most-loved', 'most-hated', 'most-divisive', 'most-voted'];
+  const validSorts = ['most-loved', 'most-hated', 'most-divisive', 'most-voted', 'most-skipped'];
   if (!validSorts.includes(sort)) {
     return res.status(400).json({ error: `sort must be one of: ${validSorts.join(', ')}` });
   }
@@ -153,6 +153,8 @@ app.get('/results', (req, res) => {
       i.label,
       i.description,
       i.image_url,
+      i.year,
+      i.genre,
       COALESCE(SUM(CASE WHEN v.choice = 'yes' THEN 1 ELSE 0 END), 0) AS yes_count,
       COALESCE(SUM(CASE WHEN v.choice = 'no' THEN 1 ELSE 0 END), 0) AS no_count,
       COUNT(v.id) AS total_votes
@@ -164,10 +166,11 @@ app.get('/results', (req, res) => {
   rows = rows.map((r) => {
     const total = r.yes_count + r.no_count;
     const yes_rate = total > 0 ? Math.round((r.yes_count / total) * 100) : 0;
+    const no_rate = total > 0 ? Math.round((r.no_count / total) * 100) : 0;
     const divisiveness = total > 0
       ? Math.abs(50 - yes_rate)
       : 50;
-    return { ...r, yes_rate, divisiveness };
+    return { ...r, yes_rate, no_rate, divisiveness };
   });
 
   switch (sort) {
@@ -183,11 +186,31 @@ app.get('/results', (req, res) => {
     case 'most-voted':
       rows.sort((a, b) => b.total_votes - a.total_votes);
       break;
+    case 'most-skipped':
+      rows.sort((a, b) => b.no_rate - a.no_rate || b.no_count - a.no_count);
+      break;
     default:
       break;
   }
 
   res.json({ results: rows, sort });
+});
+
+/** GET /skips — movies this session voted "no" on */
+app.get('/skips', (req, res) => {
+  const sessionId = req.query.sessionId;
+  if (!isValidSessionId(sessionId)) {
+    return res.status(400).json({ error: 'Valid sessionId required' });
+  }
+
+  const rows = db.prepare(`
+    SELECT i.id, i.label, i.description, i.image_url, i.year, i.genre, uv.choice
+    FROM items i
+    INNER JOIN votes uv ON uv.item_id = i.id AND uv.session_id = ? AND uv.choice = 'no'
+    ORDER BY uv.id DESC
+  `).all(sessionId);
+
+  res.json({ skips: rows, count: rows.length });
 });
 
 /** GET /matches — user yes votes where global yes_rate >= threshold */
@@ -200,7 +223,7 @@ app.get('/matches', (req, res) => {
 
   const rows = db.prepare(`
     SELECT
-      i.id, i.label, i.description, i.image_url,
+      i.id, i.label, i.description, i.image_url, i.year, i.genre,
       SUM(CASE WHEN v.choice = 'yes' THEN 1 ELSE 0 END) AS yes_count,
       COUNT(v.id) AS total_votes
     FROM items i
