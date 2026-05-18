@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchMatches } from '../api';
+import { getPosterUrl, posterFallbackDataUrl } from '../utils/poster';
 
 export default function MatchesView({ sessionId, onBack }) {
   const [matches, setMatches] = useState([]);
@@ -32,7 +33,7 @@ export default function MatchesView({ sessionId, onBack }) {
         <h1>Your Matches</h1>
       </header>
       <p className="matches-sub">
-        Films you liked that the crowd also loves ({threshold}%+ yes rate)
+        Films you want to watch that the crowd also loves ({threshold}%+ yes rate)
       </p>
       {loading ? (
         <p className="loading-text">Finding matches…</p>
@@ -44,9 +45,25 @@ export default function MatchesView({ sessionId, onBack }) {
         <ul className="results-list">
           {matches.map((m) => (
             <li key={m.id} className="result-item">
-              <img src={m.image_url} alt="" className="result-thumb" />
+              <div className="result-thumb-wrap">
+                <img
+                  src={getPosterUrl(m)}
+                  alt=""
+                  className="result-thumb"
+                  onError={(e) => {
+                    e.target.src = posterFallbackDataUrl(m.label);
+                  }}
+                />
+              </div>
               <div className="result-meta">
+                <div className="result-tags">
+                  {m.year && <span>{m.year}</span>}
+                  {m.genre && <span>{m.genre}</span>}
+                </div>
                 <strong>{m.label}</strong>
+                {m.description && (
+                  <p className="result-desc">{m.description}</p>
+                )}
                 <span className="yes-pct">{m.yes_rate}% community yes</span>
               </div>
             </li>
