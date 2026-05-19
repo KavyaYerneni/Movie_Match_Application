@@ -15,7 +15,7 @@
 | Frontend | React 18, Vite, vanilla CSS |
 | Backend | Node.js, Express |
 | Database | SQLite (`better-sqlite3`) |
-| AI tooling | Cursor (Claude) — see [`AI_NOTES.md`](./AI_NOTES.md) |
+| AI tooling | Claude (ideas), Cursor (implementation) — see [`AI_NOTES.md`](./AI_NOTES.md) |
 
 Target viewport: **390×844** (iPhone-class). Touch swipes and mouse drag are both supported.
 
@@ -238,29 +238,8 @@ The assistant sometimes generated invalid JSX tags (`<motion>` instead of `<div>
 
 **Worse:** First-pass image URLs (placehold.co) and card layout hid movie descriptions; I had to steer a second iteration toward reliable images (picsum.photos) and overlay typography. Rubric items (100+ items, dedup, pull-down to results) needed manual verification rather than assuming completeness.
 
-### Other AI tools used
+### AI tools used
 
-- **Cursor (Claude)** — primary pair-programming assistant for design, implementation, and debugging
-- No other AI tools were used for code generation
+**Claude** — I used Claude early in the project to brainstorm the **Movie Matchups** theme, compare stack choices (React + Express + SQLite), and outline stretch features such as undo, matches, and analytics. It helped me turn the assignment rubric into a concrete feature list before I started building.
 
-### How I directed the AI
-
-I provided the assignment screenshots, chose the **Movie Matchups** theme, and requested end-to-end delivery with stretch goals. I rejected `localStorage` as the vote source of truth, insisted on real backend persistence, and reviewed deduplication and API shape before accepting the architecture.
-
----
-
-## Submission checklist (Question 10)
-
-Also required by the course (in addition to this repo):
-
-1. **Three screenshots** of the running app (swipe deck, results, end-of-deck or matches).
-2. **YouTube demo** (~3–5 minutes) showing swipe flow, persistence, and results.
-3. **Email** to **coolprofsinn2@gmail.com**
-   - **Subject:** `CMPE 285 Final question 10`
-   - Include: GitHub link (or zip), YouTube link, screenshots/deliverables.
-
----
-
-## Author
-
-CMPE 285 Final Project — Movie Match (swipe-to-vote).
+**Cursor** — I used Cursor as the main implementation environment to generate and refine code: API routes, the swipe deck, poster loading, and UI polish. I reviewed every change, fixed build issues (for example invalid JSX), and re-tested flows such as vote deduplication and the results tab before committing.

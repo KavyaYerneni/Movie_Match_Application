@@ -18,13 +18,14 @@ The assistant sometimes generated invalid JSX (mistyped HTML element tags), whic
 
 **Better:** A full vertical slice (seed data → API → swipe UI → results) came together quickly, including stretch features like undo, matches, and analytics.
 
-**Worse:** First-pass image URLs (placehold.co) and card layout hid movie descriptions; I had to steer a second iteration toward reliable images (picsum.photos) and overlay typography. Rubric items (100+ items, dedup, pull-down to results) needed manual verification rather than assuming completeness.
+**Worse:** First-pass image URLs (placehold.co) and card layout hid movie descriptions; I had to steer a second iteration toward reliable images (Cinemeta/MetaHub posters) and overlay typography. Rubric items (100+ items, dedup, pull-down to results) needed manual verification rather than assuming completeness.
 
-## Other AI tools used
+## AI tools used
 
-- **Cursor (Claude)** — primary pair-programming assistant for design, implementation, and debugging
-- No other AI tools were used for code generation
+### Claude
 
-## How I directed the AI
+I used Claude early in the project to brainstorm the **Movie Matchups** theme, compare stack choices (React + Express + SQLite), and outline stretch features such as undo, matches, and analytics. It helped me turn the assignment rubric into a concrete feature list before I started building.
 
-I provided the assignment screenshots, chose the **Movie Matchups** theme, and requested end-to-end delivery with stretch goals. I rejected `localStorage` as the vote source of truth, insisted on real backend persistence, and reviewed deduplication and API shape before accepting the architecture.
+### Cursor
+
+I used Cursor as the main implementation environment to generate and refine code: API routes, the swipe deck, poster loading, and UI polish. I reviewed every change, fixed build issues (for example invalid JSX), and re-tested flows such as vote deduplication and the results tab before committing.
