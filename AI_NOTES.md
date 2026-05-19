@@ -1,6 +1,6 @@
 # AI Collaboration Reflection (CMPE 285)
 
-> **Note:** This reflection is also included in the main [`README.md`](./README.md#ai-usage-write-up) for submission.
+> **Note:** Linked from the main [`README.md`](./README.md#ai-usage-write-up).
 
 ## What the AI wrote end-to-end
 
